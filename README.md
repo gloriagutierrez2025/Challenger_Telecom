@@ -13,8 +13,25 @@ A partir de un conjunto de datos historicos se construyó un  modelo predictivo 
 -Librerías:Pandas,Matplotlip,Seaborn,Numpy,requests,json.
 
 **Limpieza y tratamiento de Datos**
+Importación de datos desde Github, utilizando la biblioteca requests.
+
+Normalización del archivo json, se usó pd.json_normalize(),para convertir la estructura anidada del json en un DataFrame plano de pandas, con el fin de poder trabajar con el archivo como una tabla.
+
+Se hizo limpieza en nombres de las columnas, reemplazando los puntos por guíon bajo para facilitar el acceso a las columnas.
+
+Reemplazo de valores vaciós por Nan que es el formato estandar por pandas para valores faltantes y se eliminó duplicados para evitar distorsiones en los análisis.
+
+Filtrado de registros invalidos, se eliminaron los valores que no tenian registros validos en la columna churn (Cancelación),conservando solo valores Yes y No.
+
+Conversión de columnas númericas, se forzó la conversión de algunas columnas claves como Charges_Monthly a tipo númerico, manejando errores con Nan.
+
+Codificación de variables binarias Yes/No a 1/0.
+
+Renombramiento de columnas claves a español
 
 **Análisis exploratorio de datos**
+Creación de columna gasto mensual/diario, a través de columna cuentas diarias para explorar el gasto promedio diario y mensual por cliente.
+Para poder encontrar las variables con mayor impacto en la cancelación, se creó gráficos correlacionados con variable Churn (Cancelación), como Género, tiempo de contrato, distribución de gastos totales,  cancelación por método de pago y por tipo de contrato. Proporción de clientes que cancelan versus quienes no cancelan.
 
 **Gráficos**
 
