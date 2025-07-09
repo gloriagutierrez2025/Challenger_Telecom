@@ -73,6 +73,9 @@ Otros factores influyentes en las cancelaciones son los gastos mensuales altos y
 
 - Seguimiento a nuevos clientes
 
+**Cómo ejecutar el proyecto**
+
+
 
 
 
