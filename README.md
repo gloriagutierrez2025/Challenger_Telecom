@@ -6,13 +6,13 @@ El análisis se enfoco en comprender que factores están influyendo en la cancel
 A partir de un conjunto de datos historicos se construyó un  modelo predictivo y utilizando análisis estadísticos y visuales. Se identificaron patrones claros de comportamientos, lo que permitió definir acciones concretas para reducir el porcentaje Churn (cancelación).
 
 **Tecnologías**
--Notebook electronico Google Colab
 
--Python
+- Notebook electronico Google Colab con Python
 
--Librerías:Pandas,Matplotlip,Seaborn,Numpy,requests,json.
+- Librerías:Pandas,Matplotlip,Seaborn,Numpy,requests,json.
 
 **Limpieza y tratamiento de Datos**
+
 Importación de datos desde Github, utilizando la biblioteca requests.
 
 Normalización del archivo json, se usó pd.json_normalize(),para convertir la estructura anidada del json en un DataFrame plano de pandas, con el fin de poder trabajar con el archivo como una tabla.
@@ -30,23 +30,33 @@ Codificación de variables binarias Yes/No a 1/0.
 Renombramiento de columnas claves a español
 
 **Análisis exploratorio de datos**
+
 Creación de columna gasto mensual/diario, a través de columna cuentas diarias para explorar el gasto promedio diario y mensual por cliente.
 Para poder encontrar las variables con mayor impacto en la cancelación, se creó gráficos correlacionados con variable Churn (Cancelación), como Género, tiempo de contrato, distribución de gastos totales,  cancelación por método de pago y por tipo de contrato. Proporción de clientes que cancelan versus quienes no cancelan.
 
-**Gráficos**
+Gráfico con proporción de clientes que cancelan verus quienes no cancelan servicios
+
+<img width="407" height="435" alt="Image" src="https://github.com/user-attachments/assets/7fc0fd27-eea9-4779-b94c-7af508d57bcd" />
+
+Gráfico 
+
+<img width="590" height="390" alt="Image" src="https://github.com/user-attachments/assets/bf343f70-882f-4d99-843c-04f94668c576" />
+
+Gráfico
+
+<img width="785" height="390" alt="Image" src="https://github.com/user-attachments/assets/1003e1c0-54b5-41dc-ba39-65ac0ece9dae" />
 
 **Las variables con mayor impacto en la cancelación de servicios son:**
 
-Tipo de Contrato
+- Tipo de Contrato
 
-Tiempo de Contrato
+- Tiempo de Contrato
 
-Gastos Mensuales
+- Gastos Mensuales
 
-Método de pago
+- Método de pago
 
-Servicios Contratados
-
+- Servicios Contratados
 
 **Conclusiones**
 
@@ -55,13 +65,13 @@ Otros factores influyentes en las cancelaciones son los gastos mensuales altos y
 
 **Recomendaciones**
 
-Incentivar contratos anuales
+- Incentivar contratos anuales
 
-Ofrecer beneficios por permanencia
+- Ofrecer beneficios por permanencia
 
-Ofrecer algun regalo para clientes con alta tarifa
+- Ofrecer algun regalo para clientes con alta tarifa
 
-Seguimiento a nuevos clientes
+- Seguimiento a nuevos clientes
 
 
 
