@@ -83,5 +83,6 @@ Requisitos
 
 - Puedes sacar la matriz de datos desde la API: url='https://raw.githubusercontent.com/ingridcristh/challenge2-data-science-LATAM/main/TelecomX_Data.json'
 
-- Si abres el archivo desde Google Colab ejecuta todas las celdas para que considere las importaciones cargadas y todos los campos se puedan visualizar correctamente y sin errores.
+- Si abres el archivo desde Google Colab ejecuta todas las celdas para que considere las importaciones cargadas y todos los campos se puedan visualizar correctamente y sin errores. A continuación página para acceder a los antecedentes trabajados desde la matriz.
+- https://github.com/gloriagutierrez2025/Challenger_Telecom.git
 
