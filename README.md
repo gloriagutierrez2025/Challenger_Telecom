@@ -74,9 +74,9 @@ Otros factores influyentes en las cancelaciones son los gastos mensuales altos y
 - Seguimiento a nuevos clientes
 
 **Cómo ejecutar el proyecto**
-
-
-
-
-
+Requisitos
+Python 3.10+
+Bibliotecas: Pandas,Matplotlip,Seaborn,Numpy,requests,json.
+Puedes sacar la matriz de datos desde la API: url='https://raw.githubusercontent.com/ingridcristh/challenge2-data-science-LATAM/main/TelecomX_Data.json'
+Si abres el archivo desde Google Colab ejecuta todas las celdas para que considere las importaciones cargadas y todos los campos se puedan visualizar correctamente y sin errores.
 
