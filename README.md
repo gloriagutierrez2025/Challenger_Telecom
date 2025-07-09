@@ -3,7 +3,7 @@
 **Introducción**
 
 El análisis se enfoco en comprender que factores están influyendo en la cancelación de clientes de TelecomX.
-A partir de un conjunto de datos historicos se construyó un  modelo predictivo y utilizando análisis estadísticos y visuales. Se identificaron patrones claros de comportamientos, lo que permitió definir acciones concretas para reducir el porcentaje Churn (cancelación).
+A partir de un conjunto de datos historicos se identificó variables relacionadas a la cancelación de servicios de Telecom, utilizando análisis estadísticos y visuales. Se identificaron patrones claros de comportamientos, lo que permitió definir acciones concretas para reducir el porcentaje Churn (cancelación).
 
 **Tecnologías**
 
